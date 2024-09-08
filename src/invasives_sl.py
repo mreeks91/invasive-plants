@@ -3,7 +3,7 @@ import requests
 import json
 import streamlit as st
 
-API_KEY = settings.PLANTNET_API_KEY
+
 PROJECT = 'all'
 api_endpoint = f"https://my-api.plantnet.org/v2/identify/{PROJECT}?api-key={API_KEY}"
 
