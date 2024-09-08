@@ -1,5 +1,4 @@
 import pandas as pd
-import settings
 import requests
 import json
 import streamlit as st
