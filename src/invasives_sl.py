@@ -50,7 +50,9 @@ if __name__ == '__main__':
         st.markdown(
     '''Invasive plants are those that:          
     * Are **not native** to an area
+    
     * **Spread** quickly
+    
     * Cause **economic or environmental harm**, or harm to human health.''')
         
         st.write("Invasive plants have been brought into areas, and this can happen accidentally or on purpose. They are often referred to as “exotic,” “alien,” “introduced,” or “non-native” species.")
