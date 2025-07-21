@@ -53,11 +53,14 @@ if __name__ == '__main__':
     * **Spread** quickly
     * Cause **economic or environmental harm**, or harm to human health.
         
-    Invasive plants have been brought into areas, and this can happen accidentally or on purpose. 
-    They are often referred to as “exotic,” “alien,” “introduced,” or “non-native” species.
+    Invasive plants have been brought into areas, and this can happen 
+    accidentally or on purpose. They are often referred to as “exotic,” 
+    “alien,” “introduced,” or “non-native” species.
 
-    In their natural range, these plants are limited by factors that keep them in balance including pests, herbivores, or diseases. 
-    However, when introduced into an area where **these limitations are absent**, some species can become invasive. ''')
+    In their natural range, these plants are limited by factors that 
+    keep them in balance including pests, herbivores, or diseases. 
+    However, when introduced into an area where **these limitations are absent**,
+      some species can become invasive. ''', type = str)
         
         st.subheader('Why should I care about invasive plants?')
         st.write('''Invasive plants **reduce habitat for native wildlife**. Invasive plants out-compete natives and “take over” native plants' habitats.
@@ -77,7 +80,7 @@ if __name__ == '__main__':
     * Changes in the rate of soil erosion
     * Changes to natural ecological processes, such as plant community succession
 
-    Invasives also cost money. According to the U.S. Fish and Wildlife Service (PDF)Opens In A New Window, the U.S. spends **more than $120 billion on invasive species each year**. ''')
+    Invasives also cost money. According to the U.S. Fish and Wildlife Service (PDF)Opens In A New Window, the U.S. spends **more than $120 billion on invasive species each year**. ''', type = str)
 
         st.subheader('Who determines if a plant is invasive?')
         st.write('The PA DCNR maintains a list of invasive plant species. [Click here](https://elibrary.dcnr.pa.gov/GetDocument?docId=2700788&DocName=dcnr_20033786.pdf) for a full list of invasive plant species and [here](https://www.pa.gov/agencies/dcnr/conservation/wild-plants/invasive-plants/invasive-plant-fact-sheets) for a list of invasive plant fact sheets.')
