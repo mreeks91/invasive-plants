@@ -27,8 +27,8 @@ def species_id(plant_id):
 
 def is_invasive(species_id,invasives):
     if species_id in invasives['Scientific Name'].str.lower().to_list():
-        if not pd.isnull(invasives[invasives['Scientific Name'].str.lower()==species_id]['Link']):
-            factsheet = invasives[invasives['Scientific Name'].str.lower()==species_id]['Link']
+        if not pd.isnull(invasives[invasives['Scientific Name'].str.lower()==species_id]['Link'].iloc[0]):
+            factsheet = invasives[invasives['Scientific Name'].str.lower()==species_id]['Link'].iloc[0]
             return 'Invasive', factsheet
         else:
             return 'Invasive', None
