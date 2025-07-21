@@ -42,6 +42,7 @@ def load_invasives():
     
 if __name__ == '__main__':
     st.title('PA Invasives')
+    st.set_page_config(layout='wide')
     info, classifier = st.columns(2)
     with info:
         st.header('Is it invasive?')
