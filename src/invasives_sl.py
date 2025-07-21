@@ -70,6 +70,7 @@ if __name__ == '__main__':
     
     with classifier:
         invasives = load_invasives()
+        print('fallopia japonica' in invasives['Scientific Name'].str.lower().to_list())
         st.subheader('Is this plant invasive?')
         st.write('''Upload a clear image of a plant below to determine if it is likely invasive or not. The classifier works best if you include only a single plant in your image,
                 and make sure to capture any distinctive features like leaf shape, fruit, or flowers.
