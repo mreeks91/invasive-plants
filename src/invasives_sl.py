@@ -55,7 +55,11 @@ if __name__ == '__main__':
         
         st.write("Invasive plants have been brought into areas, and this can happen accidentally or on purpose. They are often referred to as “exotic,” “alien,” “introduced,” or “non-native” species.")
 
+<<<<<<< HEAD
         st.write("In their natural range, these plants are limited by factors that keep them in balance including pests, herbivores, or diseases. However, when introduced into an area where **these limitations are absent**, some species can become invasive.",type = str)
+=======
+        st.write("In their natural range, these plants are limited by factors that keep them in balance including pests, herbivores, or diseases. However, when introduced into an area where **these limitations are absent**, some species can become invasive." type = str)
+>>>>>>> a4a63c33849b3b7faf1ffd27bc60d4c5fede4355
         
         st.subheader('Why should I care about invasive plants?')
         st.write('''Invasive plants **reduce habitat for native wildlife**. Invasive plants out-compete natives and “take over” native plants' habitats.''')
