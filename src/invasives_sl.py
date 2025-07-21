@@ -47,7 +47,7 @@ if __name__ == '__main__':
     with info:
         st.header('Is it invasive?')
         st.subheader('What is an invasive plant?')
-        st.write(
+        st.markdown(
     '''Invasive plants are those that:          
     * Are **not native** to an area
     * **Spread** quickly
