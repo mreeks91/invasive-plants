@@ -51,36 +51,19 @@ if __name__ == '__main__':
     '''Invasive plants are those that:          
     * Are **not native** to an area
     * **Spread** quickly
-    * Cause **economic or environmental harm**, or harm to human health.
+    * Cause **economic or environmental harm**, or harm to human health.''')
         
-    Invasive plants have been brought into areas, and this can happen 
-    accidentally or on purpose. They are often referred to as “exotic,” 
-    “alien,” “introduced,” or “non-native” species.
+        st.write("Invasive plants have been brought into areas, and this can happen accidentally or on purpose. They are often referred to as “exotic,” “alien,” “introduced,” or “non-native” species.")
 
-    In their natural range, these plants are limited by factors that 
-    keep them in balance including pests, herbivores, or diseases. 
-    However, when introduced into an area where **these limitations are absent**,
-      some species can become invasive. ''', type = str)
+        st.write("In their natural range, these plants are limited by factors that keep them in balance including pests, herbivores, or diseases. However, when introduced into an area where **these limitations are absent**, some species can become invasive." type = str)
         
         st.subheader('Why should I care about invasive plants?')
-        st.write('''Invasive plants **reduce habitat for native wildlife**. Invasive plants out-compete natives and “take over” native plants' habitats.
+        st.write('''Invasive plants **reduce habitat for native wildlife**. Invasive plants out-compete natives and “take over” native plants' habitats.''')
 
-    They often emerge earlier in the spring and push natives out through fast reproduction. 
-    This limits habitat available for native wildlife and disrupts the food chain.
+        st.write("They often emerge earlier in the spring and push natives out through fast reproduction. This limits habitat available for native wildlife and disrupts the food chain.")
 
-    One example is the invasive plant, garlic mustard. Native butterflies lay eggs on garlic mustard, and they either die or the caterpillars don't properly grow.
 
-    Other ecological impacts include:
-
-    * Changes in availability of water, light, and nutrients
-    * Disruption of native plant-pollinator relationships
-    * Serving as host reservoirs for plant pathogens
-    * Replacing nutritious native plant foods with lower quality sources
-    * Killing trees and shrubs through girdling
-    * Changes in the rate of soil erosion
-    * Changes to natural ecological processes, such as plant community succession
-
-    Invasives also cost money. According to the U.S. Fish and Wildlife Service (PDF)Opens In A New Window, the U.S. spends **more than $120 billion on invasive species each year**. ''', type = str)
+        st.write("Invasives also cost money. According to the U.S. Fish and Wildlife Service (PDF)Opens In A New Window, the U.S. spends **more than $120 billion on invasive species each year**.", type = str)
 
         st.subheader('Who determines if a plant is invasive?')
         st.write('The PA DCNR maintains a list of invasive plant species. [Click here](https://elibrary.dcnr.pa.gov/GetDocument?docId=2700788&DocName=dcnr_20033786.pdf) for a full list of invasive plant species and [here](https://www.pa.gov/agencies/dcnr/conservation/wild-plants/invasive-plants/invasive-plant-fact-sheets) for a list of invasive plant fact sheets.')
