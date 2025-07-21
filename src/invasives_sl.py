@@ -47,10 +47,10 @@ if __name__ == '__main__':
     with info:
         
         st.subheader('What is an invasive plant?')
-        st.markdown('''Invasive plants are those that:          
-    * Are **not native** to an area\n
-    * **Spread** quickly\n
-    * Cause **economic or environmental harm**, or harm to human health.''')
+        st.markdown("Invasive plants are those that:")     
+        st.markdown("- Are **not native** to an area")
+        st.markdown("- **Spread** quickly")
+        st.markdown("- Cause **economic or environmental harm**, or harm to human health.")
         
         st.write("Invasive plants have been brought into areas, and this can happen accidentally or on purpose. They are often referred to as “exotic,” “alien,” “introduced,” or “non-native” species.")
 
