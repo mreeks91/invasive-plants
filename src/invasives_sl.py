@@ -45,11 +45,11 @@ if __name__ == '__main__':
     st.set_page_config(layout='wide')
     info, classifier = st.columns(2)
     with info:
-        st.header('Is it invasive?')
+        
         st.subheader('What is an invasive plant?')
         st.markdown('''Invasive plants are those that:          
-    * Are **not native** to an area
-    * **Spread** quickly
+    * Are **not native** to an area\n
+    * **Spread** quickly\n
     * Cause **economic or environmental harm**, or harm to human health.''')
         
         st.write("Invasive plants have been brought into areas, and this can happen accidentally or on purpose. They are often referred to as “exotic,” “alien,” “introduced,” or “non-native” species.")
